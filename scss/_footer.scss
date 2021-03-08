@@ -1,0 +1,80 @@
+.footer-top-area{
+	background-color: $color-semidark-black;
+	color: $color-white;
+	.footer-top{
+		letter-spacing: 1.5px;
+		h5{
+			font-weight: 300;
+		}
+		p{
+			font-size: 12px;
+			color: $color-fade-black;
+		}
+		.hotel-contact-number{
+			font-size: 20px;
+			color: $color-white;
+		}
+		.fa{
+			font-size: 21px;
+			padding-right: 15px;
+		}
+	}
+	.subscibe-newletter{
+		.input-email{
+			.form-control{
+			/*width: 50%;*/
+			display: inline-block;
+			border-radius: 0px;
+			border: 0px solid ;
+			background-color: $color-light-shade-black;
+			}
+		}
+	}
+}
+
+.footer-bottom-area{
+	background-color: $color-light-shade-black;
+	ul{
+		padding-left: 0px;
+		li{
+			display: inline;
+			list-style: none;
+			padding-right: 30px;
+
+			a{
+				color: $color-white;
+				text-decoration: none;
+				font-size: 13px;
+				font-family: 'Gilda Display', serif;
+				letter-spacing: 1.3px;
+			}
+		}
+	}
+	.partners-logo{
+		img{
+			width: 370px;
+		}
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+@media(max-width:780px){
+	
+	.footer-top{
+		padding: 0px 20px;
+		.social-media-icon{
+			margin: 30px 0px;
+		}
+	}
+	.footer-bottom-area{
+		.footer-nav{
+			text-align: center;
+			
+		}
+		.partners-logo{
+			justify-content: center;
+		}
+	}
+	
+}

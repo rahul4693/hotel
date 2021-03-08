@@ -1,0 +1,15 @@
+.hotel-all-rooms{
+	.all-rooms-border{
+		border: 1px solid $color-very-light-gray;
+	}
+}
+
+@media(max-width:780px){
+	.page-header{
+		.page-header-title{
+			h1{
+				font-size: 40px;
+			}
+		}
+	}
+}

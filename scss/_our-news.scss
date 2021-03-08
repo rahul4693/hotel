@@ -1,0 +1,10 @@
+.page-header{
+	background-image: linear-gradient(to bottom, rgba(67, 74, 84, 0.3), rgba(67, 74, 84, 0.3)), url('../img/video-thumbnail.jpg');
+	@extend .page-header-background;
+}
+
+@media(max-width:780px){
+	.hotel-news-blog-content{
+		margin-bottom: 25px;
+	}
+}

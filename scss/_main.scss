@@ -1,0 +1,400 @@
+.btn-primary{
+	background-color: $color-primary;
+	border: none;
+	    font-size: 12px;
+    font-weight: 600;
+    padding:9px 23px;
+    letter-spacing: 2px;
+}
+
+.about-us-content{
+	color: $color-fade-black;
+	font-weight: 200;
+	padding:0px 20px;
+	h1{
+		font-size: 80px;
+		color: $color-semidark-black;
+	}
+}
+.room-category{
+	background-color: $color-very-light-gray;
+	.room-category-title{
+		h6{
+			font-size: 14px;
+			font-weight: 300;
+			color: $color-primary;
+			position: relative;
+			&:before{
+				content:'';
+				background-color: $color-primary;
+				height: 1px;
+				width: 50px;
+				position: absolute;
+				bottom: -15px;
+				left: 50%;
+				transform: translate(-50%,0%);
+			}
+		}
+		h1{
+			padding-top: 20px;
+			font-size: 55px;
+		}
+	}
+}
+
+.category-small-room{
+	.category-small-room-content {
+		padding: 20px 0px 38px 25px;
+	}
+	h3{
+		font-family: 'Gilda Display', serif;
+	}
+	ul{
+		padding-left: 0px;
+		li{
+			display: inline;
+			list-style: none;
+			padding-right: 15px;
+			color: $color-fade-black;
+			font-weight: 300;
+			font-size: 13px;
+			img{
+				height: 23px;
+				widows: 23px;
+			}
+		}
+	}
+	p{
+		color: $color-fade-black;
+		font-weight: 300;
+	}
+	.check-package-btn{
+		background-color: $color-semidark-black;
+		color: $color-white;
+		padding: 10px 30px;
+		font-size: 13px;
+		font-weight: 500;
+		letter-spacing: 1.5px;
+	}
+}
+
+.different-category-room{
+	.category-room-type{
+		position: relative;
+			&:before{
+				content:'';
+				background: linear-gradient(rgba(28, 28, 28, 0.2) 0%, rgba(28, 28, 28, 0.2) 100%);
+				position: absolute;
+				top: 0;
+				left:0;
+				width: 100%;
+				height: 100%;
+			}
+		.category-room-type-caption{
+			position: absolute;
+			bottom: 15px;
+			left: 0;
+			color: $color-white;
+			font-size: 12px;
+			width: 100%;
+			letter-spacing: 1.5px;
+			font-weight: 300;
+			h6{
+				display: inline-block;
+				font-size: 12px;
+				padding: 0px 20px;
+				font-weight: 300;
+			}
+			a{
+				color: $color-white;
+				background-color: $color-primary;
+				text-decoration:none;
+				padding: 0px 15px;
+			}
+		}
+	}
+}
+
+.discover-our-location-image{
+	background-image: url('../img/discover-our-location.jpg');
+	width: 100%;
+	height: 100%;
+	/*height: 630px;*/
+	background-position: center;
+	background-size: cover;
+}
+
+.discover-our-location-content{
+	background-color: $color-semidark-black;
+	padding: 80px 65px;
+	
+	h6{
+		color: $color-white;
+		font-size: 13px;
+		letter-spacing: 2px;
+		font-weight: 200;
+
+	}
+	h1{
+		color: $color-white;
+			font-size: 80px;
+			line-height: 80px;
+			padding-top: 20px;
+			.discover-our-location-content-heading{
+				color: $color-primary;
+			}
+	}
+
+	.discover-our-location-description{
+		padding: 20px 0px;
+		color:$color-fade-black;
+		
+	}
+	.check-package-btn{
+		color: $color-white;
+		background-color: $color-black;
+		font-size: 12px;
+		padding: 8px 35px;
+		font-weight: 600;
+		letter-spacing: 2px;
+	}
+}
+
+.services-summary{
+	color: $color-shade-black;
+	    font-size: 25px;
+    line-height: 45px;
+    font-weight:300;
+}
+
+.hotel-facilities{
+	background-color: $color-very-light-gray;
+}
+
+.hotel-facilities-content{
+	background-color: $color-white;
+	padding: 40px 50px;
+	h6{
+			font-size: 14px;
+			font-weight: 300;
+			color: $color-semidark-black;
+			position: relative;
+			letter-spacing: 2px;
+			&:before{
+				content:'';
+				background-color: $color-semidark-black;
+				height: 1px;
+				width: 30px;
+				position: absolute;
+				bottom: -15px;
+				left: 50%;
+				transform: translate(-50%,0%);
+			}
+		}
+	h1{
+		font-size: 35px;
+	}
+	p{
+		color: $color-fade-black;
+		font-weight: 300;
+		font-size: 14x;
+		    line-height: 27px;
+		    padding:0px 14px;
+    /*letter-spacing: 1px;*/
+	}
+	/*.btn-read-more{
+		
+	}*/
+}
+
+.hotel-video{
+	background-image: url("../img/video-thumbnail.jpg");
+	background-position: center;
+	background-size: cover;
+	color: $color-white;
+	padding:100px 0px;
+	position: relative;
+	&:before{
+				content:'';
+				background: linear-gradient(rgba(28, 28, 28, 0.2) 0%, rgba(28, 28, 28, 0.2) 100%);
+				position: absolute;
+				top: 0;
+				left:0;
+				width: 100%;
+				height: 100%;
+			}
+	.hotel-video-thumbnail-content{
+		z-index: 9999;
+		h1{
+		font-size: 55px;
+	    line-height: 65px;
+	    font-weight: 900;
+		}
+		h6{
+			font-weight: 300;
+		}
+		img{
+			height: 60px;
+			width: 60px;
+			margin-top: 30px; 
+		}
+	}
+}
+
+.hotel-news{
+	background-color: $color-very-light-gray;
+	.hotel-news-title {
+		h6{
+			font-weight: 300;
+			position: relative;
+			&:before{
+				content:'';
+				background-color: $color-semidark-black;
+				height: 1px;
+				width: 30px;
+				position: absolute;
+				bottom: -15px;
+				left: 50%;
+				transform: translate(-50%,0%);
+			}
+		}
+
+		h1{
+			font-size: 55px;
+		}
+	}
+}
+
+
+.hotel-news{
+	.hotel-news-blog-content{
+	/*padding: 0px 20px;*/
+	background-color: $color-white;
+	padding-left: 20px;
+	h6{
+		font-weight: 300;
+		position: relative;
+		&:before{
+				content:'';
+				background-color: $color-semidark-black;
+				height: 1px;
+				width: 30px;
+				position: absolute;
+				bottom: -12px;
+    			left: 0px;
+			}
+	}
+	h3{
+		font-size: 25px;
+	}
+	p{
+		color: $color-fade-black;
+		font-weight: 300;
+	}
+}
+.check-new-events{
+	color: $color-white;
+	background-color: $color-semidark-black;
+	.fa{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 25px;
+		letter-spacing: 2px;
+	}
+}
+
+.follow-our-hotel {
+	background-color: $color-primary;
+	color: $color-white;
+	h3{
+		font-size: 25px;
+		line-height: 35px;
+		position: relative;
+		/*padding: 40px;*/
+		&:before{
+				content:'';
+				background-color: $color-white;
+				height: 1px;
+				width: 30px;
+				position: absolute;
+				bottom: -12px;
+    			left: 50%;
+    			transform: translate(-50%,0%);
+			}
+	}
+	.fa{
+		font-size: 20px;
+	}
+	p{
+		font-size: 11px;
+		letter-spacing: 2px;
+		padding:20px 0px 0px 10px;
+	}
+}
+.hotel-news-rightbar{
+	position: relative;
+	&:before{
+				content:'';
+				background: linear-gradient(to bottom, rgba(101,100,96,0) 0%,rgba(101,100,96,0.65) 100%);
+				position: absolute;
+				top: 0;
+				left:0;
+				width: 100%;
+				height: 100%;
+			}
+	.hotel-news-rightbar-thumbnail-content{
+		position: absolute;
+		bottom: 10px;
+		left: 20px;
+		z-index: 999;
+		color: $color-white;
+		h6{
+			font-size: 13px;
+			font-weight: 300;
+			letter-spacing: 2px;
+			position: relative;
+			&:before{
+				content:'';
+				background-color: $color-white;
+				height: 1px;
+				width: 30px;
+				position: absolute;
+				bottom: -12px;
+    			left: 0px;
+			}
+
+		}
+		h3{
+
+		}
+		.hotel-news-read-more{
+			font-size: 13px;
+			/*font-weight: 300;*/
+			letter-spacing: 2px;
+			text-decoration: none;
+			color: $color-white;
+			.fa{
+				font-size: 15px;
+				font-weight: 100;
+			}
+		}
+
+	}
+}
+}
+
+@media(max-width:780px){
+	.different-category-room{
+		.category-room-type{
+			margin-bottom: 20px;
+		}
+	}
+
+	.hotel-facilities{
+		.hotel-luxury-img{
+			display: none;
+		}
+	}
+	
+}

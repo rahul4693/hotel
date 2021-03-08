@@ -1,0 +1,44 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	letter-spacing: 3;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+.btn-read-more{
+	color: $color-primary;
+		border: 2px solid $color-primary;
+		padding: 10px 35px;
+		font-size: 12px;
+		font-weight: 600;
+		letter-spacing: 2px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Gilda Display', serif;
+}
+.container-fluid{
+	padding:0px;
+}
+
+/*Inheritance*/
+.page-header-background{
+	background-position: bottom;
+	background-size: cover;
+	position: relative;
+	background-color: rgba(67, 74, 84, 0.3);
+	.page-header-title{
+		padding: 140px;
+		h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		color: $color-white;
+		font-size: 55px;
+		}
+	}
+}
